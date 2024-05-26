@@ -4,6 +4,7 @@ ruby "3.3.0"
 
 gem 'omniauth' 
 gem 'omniauth-github'
+gem "omniauth-rails_csrf_protection"
 
 gem 'devise'
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
@@ -72,3 +73,5 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "byebug"
